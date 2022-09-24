@@ -1,3 +1,11 @@
+/*
+! Here we introduce you to some primitive data types available in Solidity.
+*boolean
+*uint
+*int
+*address
+*/
+
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.13;
 
@@ -52,6 +60,7 @@ contract Primitives {
     uint public defaultUint; // 0
     int public defaultInt; // 0
     address public defaultAddr; // 0x0000000000000000000000000000000000000000
+    bytes32 public defaultBytes32; // 0x0000000000000000000000000000000000000000000000000000000000000000
 }
 
 // Detailed information.

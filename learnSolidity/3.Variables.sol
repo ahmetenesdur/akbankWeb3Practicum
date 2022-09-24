@@ -25,5 +25,6 @@ contract Variables {
         // Here are some global variables
         uint timestamp = block.timestamp; // Current block timestamp
         address sender = msg.sender; // address of the caller
+        unit blockNumber = block.number; // Current block number
     }
 }
