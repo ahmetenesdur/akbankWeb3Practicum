@@ -1,0 +1,1 @@
+# Notes and sample codes while learning solidity.
