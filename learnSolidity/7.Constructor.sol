@@ -54,3 +54,7 @@ contract D is X, Y {
 contract E is X, Y {
     constructor() Y("Y was called") X("X was called") {}
 }
+
+// Detailed information.
+// https://docs.soliditylang.org/en/v0.8.15/contracts.html#creating-contracts
+// https://github.com/itublockchain/web3-bootcamp/tree/master/1x2_Constructor
