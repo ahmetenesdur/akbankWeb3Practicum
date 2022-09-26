@@ -1,6 +1,11 @@
 // There are several ways to return outputs from a function.
 //* Public functions cannot accept certain data types as inputs or outputs
 
+// public: It can be called by anyone.
+// private: It can only be called by the contract itself.
+// internal: It can only be called by the contract itself or by contracts deriving from it.
+// external: It can only be called by other contracts and accounts.
+
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.13;
 
@@ -113,3 +118,7 @@ contract Function {
         return x + y;
     }
 }
+
+// Detailed information.
+// https://docs.soliditylang.org/en/v0.8.15/types.html#function-types
+// https://github.com/itublockchain/web3-bootcamp/tree/master/1x1_Functions
