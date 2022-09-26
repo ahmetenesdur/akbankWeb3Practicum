@@ -1,5 +1,4 @@
 //! A constructor is an optional function that is executed upon contract creation.
-//* Here are examples of how to pass arguments to constructors.
 
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.13;
